@@ -15,10 +15,7 @@ public class FirstCode
 		System.out.println(c);
 		
 		double n = 5.8;
-		int k = (int) n;                  // Type casting
+		int k = (int) n;
 		System.out.println(k);
-		
-		String d = "abc";
-		System.out.println(d);
 	}
 }

@@ -13,12 +13,5 @@ public class FirstCode
 		System.out.println(num2);
 		char c = 'A';
 		System.out.println(c);
-		
-		double n = 5.8;
-		int k = (int) n;                  // Type casting
-		System.out.println(k);
-		
-		String d = "abc";
-		System.out.println(d);
 	}
 }

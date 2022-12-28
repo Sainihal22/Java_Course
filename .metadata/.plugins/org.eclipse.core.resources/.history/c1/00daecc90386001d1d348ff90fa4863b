@@ -18,7 +18,7 @@ public class FirstCode
 		int k = (int) n;                  // Type casting
 		System.out.println(k);
 		
-		String d = "abc";
+		String d = 'abc';
 		System.out.println(d);
 	}
 }

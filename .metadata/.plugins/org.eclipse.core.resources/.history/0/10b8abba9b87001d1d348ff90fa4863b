@@ -7,7 +7,6 @@ class Employee
 	static                           // spl block for static variables, class loads first
 	{
 		ceo = "Larry";
-//		eid=123;
 		System.out.println("In static");
 	}
 	

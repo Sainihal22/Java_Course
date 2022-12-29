@@ -1,0 +1,23 @@
+class Employee
+{
+	int eid;
+	int sal;
+	String ceo;
+}
+
+public class StaticLect 
+{
+
+	public static void main(String[] args) 
+	{
+		Employee Nihal = new Employee();
+		Nihal.eid = 201900052;
+		Nihal.sal = 70000;
+		Nihal.ceo = "Nihal";
+		
+		Employee Nikita = new Employee();
+		Nikita.eid = 201900053;
+		Nikita.sal = 50000;
+	}
+
+}

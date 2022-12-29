@@ -1,0 +1,35 @@
+class casio
+{
+	public void add(double i, double j)
+	{
+		System.out.println(i+j);
+	}
+	public void add(int i, int j)
+	{
+		System.out.println(i+j);
+	}
+	
+	public void add(int i, int j,int k)
+	{
+		System.out.println(i+j+k);
+	}
+	
+	public void add(int i, int j,String msg)
+	{
+		System.out.println(i+j+msg);
+	}
+}
+
+public class MethodOverloading {
+
+	public static void main(String[] args) 
+	{
+		casio ob = new casio();
+		ob.add(5, 7);
+		ob.add(4, 5,6);
+		ob.add(5.5, 6.5);
+		ob.add(5, 2," Addition ");
+		
+	}
+
+}

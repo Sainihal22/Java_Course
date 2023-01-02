@@ -1,0 +1,27 @@
+class outer
+{
+	int a;
+	public void show()
+	{
+		
+	}
+	
+	class inner
+	{
+		public void display()
+		{
+			System.out.println("In display");
+		}
+	}
+}
+
+public class InnerClass 
+{
+
+	public static void main(String[] args) 
+	{
+		outer obj = new outer();
+		obj.show();
+	}
+
+}

@@ -15,7 +15,7 @@ public class ClassArray
 
 	public static void main(String[] args) 
 	{
-		Student s[] = new Student[4];
+		Student[] s = new Student[4];
 		s[0] = new Student();
 		s[1] = new Student();
 		s[2] = new Student();

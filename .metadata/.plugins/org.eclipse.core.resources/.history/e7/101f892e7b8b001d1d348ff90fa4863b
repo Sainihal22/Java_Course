@@ -1,0 +1,28 @@
+class one
+{
+	public void show() 
+	{
+		System.out.println("In A");
+
+	}
+}
+
+class two extends one
+{
+	public void show() 
+	{
+		System.out.println("In B");
+
+	}
+}
+
+public class OverridingLect 
+{
+
+	public static void main(String[] args) 
+	{
+		two obj1 = new two();
+
+	}
+
+}

@@ -1,0 +1,28 @@
+class Overa
+{
+	public void show() 
+	{
+		System.out.println("In A");
+
+	}
+}
+
+class Overb extends Overa
+{
+	public void show() 
+	{
+		System.out.println("In B");
+
+	}
+}
+
+public class OverridingLect 
+{
+
+	public static void main(String[] args) 
+	{
+		OverB obj1 = new OverB();
+
+	}
+
+}

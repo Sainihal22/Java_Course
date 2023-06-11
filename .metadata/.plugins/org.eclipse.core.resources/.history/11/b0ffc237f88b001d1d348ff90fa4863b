@@ -1,9 +1,0 @@
-package Lectures;
-
-public class Snippet {
-	public static void main(String[] args) {
-		// runtime polymorphism
-				obj1.show();
-	}
-}
-
